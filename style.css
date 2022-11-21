@@ -1,0 +1,102 @@
+html{
+    background-color:#e2e1e6;
+}
+h1,h4{
+    font-family: 'Raleway', sans-serif;
+}
+
+img{
+    width: 350px;
+    border-radius: 8px;
+}
+
+p{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+}
+
+li{
+    color: darkred;
+}
+
+.link{
+    color:blue;
+    font-size: 25px;
+}
+#brand{
+    color: gray;
+    text-align: center;
+}
+u{
+    color: gray;
+}
+#one_color{
+    background-color:black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: left;
+}
+#two_color{
+    float: left;
+    background-color:grey;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+#three_color{
+    background-color:red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: left;
+}
+#four_color{
+    background-color:orange;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: left;
+}
+#five_color{
+    background-color:blue;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: left;
+}
+#six_color{
+    background-color: darkcyan;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+}
+.intro{
+    border: 2px solid gray;
+    width: 170px;
+    color:gray;
+    box-shadow: 5px 3px 30px black;
+}
+button{
+    background-color: #AED370;
+    opacity: 0.7;
+}
+ol{
+    font-style: italic;
+}
+.seprator{
+    text-align: justify;
+}
+#logo{
+    position: relative;
+    left:500px;
+    opacity: 0.8;
+}
+p{
+    padding:0 2% 2% 2%;
+}
+
+#fifth_photo{
+    margin-bottom: 30px;
+}

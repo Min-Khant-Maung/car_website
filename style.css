@@ -18,11 +18,15 @@ p{
 li{
     color: darkred;
 }
-
+.link a{
+    text-decoration: none;
+    color:#8a35a8;
+}
 .link{
-    color:blue;
+    color:#8a35a8;
     font-size: 25px;
 }
+
 #brand{
     color: gray;
     text-align: center;
@@ -99,4 +103,8 @@ p{
 
 #fifth_photo{
     margin-bottom: 30px;
+}
+
+.cars{
+    margin-left: 30px;
 }

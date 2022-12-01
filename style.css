@@ -9,7 +9,9 @@ img{
     width: 350px;
     border-radius: 8px;
 }
-
+#logo{
+    text-align: center;
+}
 p{
     font-family: 'Manrope', sans-serif;
     font-weight: 500;
@@ -25,11 +27,6 @@ li{
 .link{
     color:#8a35a8;
     font-size: 25px;
-}
-
-#brand{
-    color: gray;
-    text-align: center;
 }
 u{
     color: gray;
@@ -77,10 +74,11 @@ u{
     
 }
 .intro{
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
+    text-decoration: underline;
     width: 170px;
     color:gray;
-    box-shadow: 5px 3px 30px black;
+    /* box-shadow: 5px 3px 30px black; */
 }
 button{
     background-color: #AED370;
@@ -92,11 +90,6 @@ ol{
 .seprator{
     text-align: justify;
 }
-#logo{
-    position: relative;
-    left:500px;
-    opacity: 0.8;
-}
 p{
     padding:0 2% 2% 2%;
 }
@@ -106,5 +99,28 @@ p{
 }
 
 .cars{
-    margin-left: 30px;
+    margin:15px 30px;
+}
+
+li:hover{
+    animation-name:change_ani ;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+#ani:hover{
+    animation-name:change_ani ;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+@keyframes change_ani{
+    0%{
+        font-weight: 600;
+    }
+    100%{
+        font-size: larger;
+        font-weight: 600;
+    }
 }
